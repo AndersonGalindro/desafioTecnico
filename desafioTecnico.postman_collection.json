@@ -20,14 +20,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/veiculo",
+					"raw": "http://localhost:8080/veiculos",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo"
+						"veiculos"
 					]
 				}
 			},
@@ -39,14 +39,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo/findAll",
+					"raw": "http://localhost:8080/veiculos/findAll",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo",
+						"veiculos",
 						"findAll"
 					]
 				}
@@ -59,14 +59,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo/1",
+					"raw": "http://localhost:8080/veiculos/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo",
+						"veiculos",
 						"1"
 					]
 				}
@@ -79,14 +79,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo?marca=string",
+					"raw": "http://localhost:8080/veiculos?marca=string",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo"
+						"veiculos"
 					],
 					"query": [
 						{
@@ -109,14 +109,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo/countByVendidoFalse",
+					"raw": "http://localhost:8080/veiculos/countByVendidoFalse",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo",
+						"veiculos",
 						"countByVendidoFalse"
 					]
 				}
@@ -129,14 +129,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo/countByAnoBetween?start=0&end=2",
+					"raw": "http://localhost:8080/veiculos/countByAnoBetween?start=0&end=2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo",
+						"veiculos",
 						"countByAnoBetween"
 					],
 					"query": [
@@ -159,14 +159,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo/countByMarcaContaining",
+					"raw": "http://localhost:8080/veiculos/countByMarcaContaining",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo",
+						"veiculos",
 						"countByMarcaContaining"
 					]
 				}
@@ -179,14 +179,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/veiculo/findByCreatedGreaterThanEqual",
+					"raw": "http://localhost:8080/veiculos/findByCreatedGreaterThanEqual",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"veiculo",
+						"veiculos",
 						"findByCreatedGreaterThanEqual"
 					]
 				}

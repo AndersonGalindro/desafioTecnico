@@ -17,7 +17,7 @@ import com.tinnova.entity.Veiculo;
 import com.tinnova.service.VeiculoService;
 
 @RestController
-@RequestMapping("/veiculo")
+@RequestMapping("/veiculos")
 public class VeiculoController {
 
 	@Autowired
