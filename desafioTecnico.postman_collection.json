@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "f68d0e72-b6c6-45f2-ab53-83e45f9d3395",
+		"name": "desafioTecnico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"string\",\r\n  \"marca\": \"STRING\",\r\n  \"ano\": 0,\r\n  \"descricao\": \"string\",\r\n  \"vendido\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/veiculo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo/findAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findByMarcaOrAno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo?marca=string",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo"
+					],
+					"query": [
+						{
+							"key": "marca",
+							"value": "string"
+						},
+						{
+							"key": "ano",
+							"value": "0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countByVendidoFalse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo/countByVendidoFalse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo",
+						"countByVendidoFalse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countByAnoBetween",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo/countByAnoBetween?start=0&end=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo",
+						"countByAnoBetween"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "0"
+						},
+						{
+							"key": "end",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countByMarcaContaining",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo/countByMarcaContaining",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo",
+						"countByMarcaContaining"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findByCreatedGreaterThanEqual",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculo/findByCreatedGreaterThanEqual",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculo",
+						"findByCreatedGreaterThanEqual"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "somaDosMultiplosDe3e5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/somaDosMultiplosDe3e5?numero=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"somaDosMultiplosDe3e5"
+					],
+					"query": [
+						{
+							"key": "numero",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fatorial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fatorial?numero=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fatorial"
+					],
+					"query": [
+						{
+							"key": "numero",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bubbleBort",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bubbleBort?index0=55&index1=498&index2=10&index3=1&index4=1995&index5=65&index6=28&index7=90",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bubbleBort"
+					],
+					"query": [
+						{
+							"key": "index0",
+							"value": "55"
+						},
+						{
+							"key": "index1",
+							"value": "498"
+						},
+						{
+							"key": "index2",
+							"value": "10"
+						},
+						{
+							"key": "index3",
+							"value": "1"
+						},
+						{
+							"key": "index4",
+							"value": "1995"
+						},
+						{
+							"key": "index5",
+							"value": "65"
+						},
+						{
+							"key": "index6",
+							"value": "28"
+						},
+						{
+							"key": "index7",
+							"value": "90"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "votoEmRelacaoTotalEleitores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/votoEmRelacaoTotalEleitores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"votoEmRelacaoTotalEleitores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
